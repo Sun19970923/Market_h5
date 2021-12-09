@@ -1,0 +1,102 @@
+.tab-content-list{
+  width:100%;
+  margin-bottom: 200rpx;
+}
+.info-item {
+  display: flex;
+  padding-bottom: 40rpx;
+  flex-direction: row;
+  align-items: flex-start;
+  .avatar {
+    width: 70rpx;
+    height: 70rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10rpx;
+    cursor: pointer;
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+ 
+  .info {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    flex: 1;
+    padding-bottom: 20rpx;
+    .ab-right {
+      position: absolute;
+      right: 0;
+      top: -20rpx;
+    }
+    .label {
+      font-size: 28rpx;
+      color: #999;
+      font-weight: 400;
+      margin-bottom: 10rpx;
+      line-height: 28rpx;
+      display: flex;
+      &.expired {
+        text-decoration: line-through;
+      }
+    }
+    .label-left {
+      flex: 1;
+    }
+    .nft-op{
+      padding: 10rpx 16rpx;
+      color: #fff;
+      border-radius: $borderRadius;
+      background: $primaryColor;
+      &.cancel{
+        color: $primaryColor;
+        background: $secondPrimaryColor;
+      }
+    }
+    .c9 {
+      color: #999 !important;
+    }
+    .name {
+      font-size: 30rpx;
+      margin-bottom: 10rpx;
+      display: flex;
+      cursor: pointer;
+    }
+    .bfont {
+      line-height: 35rpx;
+      color: #333;
+    }
+    .ml5 {
+      margin-left: 10rpx;
+    }
+    .t {
+      color: #999;
+    }
+    .bluec {
+      color: $primaryColor;
+    }
+    .text {
+      flex: 1;
+    }
+  }
+  .info-right{
+    button{
+      color:$primaryColor;
+      background: $secondPrimaryColor;
+      border-color: $secondPrimaryColor;
+      height:65rpx;
+      font-size:24rpx;
+      display: flex;
+      align-items: center;
+    }
+    button:active{
+      background: $primaryColor;
+      border-color: $primaryColor;
+      color: #FFFFFF;
+      outline: none;
+    }
+  }
+}
+
+

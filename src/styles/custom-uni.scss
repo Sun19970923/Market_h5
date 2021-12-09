@@ -1,0 +1,22 @@
+
+.uni-modal{
+  .uni-modal__ft{
+    font-size: 30rpx;
+    &:after{
+      border-top: none;
+    }
+  }
+  .uni-modal__btn{
+    &:after{
+      border-left: none;
+    }
+  }
+}
+
+.uni-picker-container{
+  .uni-picker-action{
+    &.uni-picker-action-confirm{
+      color: $primaryColor;
+    }
+  }
+}

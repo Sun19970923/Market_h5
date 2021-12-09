@@ -1,0 +1,136 @@
+@import './variables.scss';
+@import './global.scss';
+@import './dialog.scss';
+@import './myPopover.scss';
+@import './popup.scss';
+@import './token.scss';
+@import './inputAndSelect.scss';
+@import './custom-uni.scss';
+
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.clubart-message-btn{
+  background: #fff;
+  width: 100%;
+  color: $redColor;
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+  &:hover,&:active,&:focus{
+    border: none;
+    background: #fff;
+    color: $redColor;
+  }
+}
+
+
+
+.none{
+  display: none !important;
+}
+
+.gray-font{
+  color: $grayColor;
+}
+
+
+.c9{
+  color: $grayColor !important;
+}
+.c3{
+  color: #333 !important;
+}
+.bfont{
+  font-weight: bold !important;
+  margin:0 5rpx;
+}
+.ml10{
+  margin-left: 10rpx;
+}
+.center-font{
+  text-align: center;
+}
+
+.cpointer{
+  cursor: pointer;
+}
+
+.text-link{
+  color: $primaryColor;
+}
+
+.bflex{
+  display: flex !important;
+}
+
+.brelative{
+  position: relative;
+}
+
+.currency-button{
+  background-color:$primaryColor;
+  color:white;
+  font-size:26rpx;
+}
+
+
+
+.switchClass {
+  .uni-switch-input.uni-switch-input-checked{
+    background-color:$primaryColor!important;
+  }
+}
+
+
+
+.switchClass::before{
+  display: none;
+}
+
+.cover-image{
+  max-width: 100%;
+  max-height: 100%;
+  width:100%;
+  height: 100% !important;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popover-menus{
+  padding: 10px;
+  .menu{
+    padding: 10px;
+  }
+}
+.error-image{
+  width: 50%;
+}
+.placeholder-image{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullImage{
+  width: 100%;
+  min-height:360rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .u-image__image{
+  }
+}
+.file-picker-class{
+  width:100%!important;
+  .file-picker__box{
+    width:100%!important;
+  }
+}

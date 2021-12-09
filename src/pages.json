@@ -1,0 +1,184 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+	"pages": [
+    {
+      "path": "pages/index",
+      "name": "home",
+      "title": "Home",
+      "style": {
+        "app-plus":{
+          "titleNView":false
+        },
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance":50
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/item",
+      "name": "item",
+      "title": "Item",
+      "style": { 
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      },
+      "meta": {
+      }
+    }, 
+    {
+        "path": "pages/account",
+        "name": "account",
+        "title": "Account",
+        "style": { 
+          "navigationStyle": "custom",
+          "enablePullDownRefresh": true
+        },
+        "meta": {
+        }
+    },
+    {
+        "path": "pages/profile",
+        "name": "profile", 
+        "title": "Profile",
+        "style": {
+          "navigationStyle": "custom",
+          "enablePullDownRefresh": false
+        },
+        "meta": {
+        }
+    },
+    {
+        "path": "pages/token",
+        "name": "token", 
+        "title": "Token",
+        "style": {
+          "navigationStyle": "custom",
+          "enablePullDownRefresh": true
+        },
+        "meta": {
+        }
+    },
+    {
+      "path": "pages/edit",
+      "name": "edit", 
+      "title": "Edit",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/collection",
+      "name": "collection", 
+      "title": "Collection",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/create",  
+      "name": "create", 
+      "title": "create",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/ERC721",  
+      "name": "ERC721", 
+      "title": "ERC721",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {}
+    },
+    {
+      "path": "pages/ERC1155",  
+      "name": "ERC1155", 
+      "title": "ERC1155",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {}
+    },
+    {
+      "path": "pages/search",  
+      "name": "search", 
+      "title": "search",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true 
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/search-pro",  
+      "name": "search-pro", 
+      "title": "search-pro",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/message",  
+      "name": "首页消息", 
+      "title": "message",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/language",  
+      "name": "language", 
+      "title": "language",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      },
+      "meta": {
+      }
+    },
+    {
+      "path": "pages/follow",  
+      "name": "follow", 
+      "title": "follow",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": true
+      },
+      "meta": {
+      }
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Market",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#FFFFFF",
+    "pageOrientation": "portrait",
+    "rpxCalcMaxDeviceWidth": 9999,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750 
+	}
+}

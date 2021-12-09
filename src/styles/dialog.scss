@@ -1,0 +1,104 @@
+.clubart-dialog{
+  height: auto !important;
+  width: 800rpx !important;
+  .all-error{
+    font-size: 36rpx;
+    font-weight: 400;
+    text-align: center;
+    color: $redColor;
+  }
+}
+
+.clubart-dialog-title{
+  position: relative;
+  display: flex;
+  align-items: center;
+  .left{
+    font-size: 40rpx;
+    font-weight: bold;
+    flex: 1;
+  }
+  .right{
+    width: 50rpx;
+    height: 50rpx;
+  }
+  .close-img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+}
+
+.process{
+  padding-bottom: 20rpx;
+  .paytoken-suffix{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10rpx;
+  }
+  .step-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20rpx 0;
+  }
+  .text{
+    font-size: 28rpx;
+    color: #444;
+    font-weight: 400;
+    flex: 1;
+  }
+  .step{
+    font-size: 48rpx;
+    font-weight: bold;
+    color: #999;
+    &.img{
+      animation:loading 0.75s linear infinite forwards;
+    }
+    &.finish{
+      color: $primaryColor;
+    }
+    &.loading{
+      .loading-animation{
+        height: 40rpx;
+        width: 40rpx;
+        animation:loading 0.75s linear infinite forwards;
+
+      }
+      @keyframes loading{
+        0%{
+          transform:rotate(0deg)
+        }
+        100%{
+          transform:rotate(360deg)
+        }
+      }
+    }
+  }
+  .process-btn{
+    padding: 20rpx 0;
+    button{
+      width: 100%;
+      padding:20rpx 0;
+    }
+  }
+  .process-error, .input-error{
+    padding-top: 10rpx;
+    font-weight: 400;
+    color: $redColor;
+  }
+  .input-info{
+    .tip{
+      padding-bottom: 20rpx;
+      padding-top: 20rpx;
+      font-size: 28rpx;
+    }
+  }
+  .input-group,.confirm-text{
+    padding-bottom: 60rpx;
+  }
+  .stip{
+    padding-top: 20rpx;
+  }
+}

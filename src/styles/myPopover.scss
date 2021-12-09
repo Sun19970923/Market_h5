@@ -1,0 +1,42 @@
+.index-Filter{
+    left:auto!important;
+    right:0!important;
+    top:60rpx!important;
+    width: 300rpx!important;
+    padding:20rpx 20rpx;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.index-Filter::before{
+    display: none;
+}
+
+.myShare{
+    left:0!important;
+    border:1rpx solid $grayColor;
+    top:360rpx!important;
+    padding:20rpx 20rpx;
+    display:flex;
+    justify-content: space-around;
+}
+.myShare::before{
+    display: none;
+}
+
+.detail-myShare{
+    width: fit-content!important;
+    left:auto!important;
+    right:0!important;
+    border:1rpx solid $grayColor;
+    top:80rpx!important;
+    padding:20rpx 20rpx;
+    display:flex;
+    justify-content: space-around;
+}
+.detail-myShare::before{
+    display: none;
+}
+.relative{
+    position:relative
+}

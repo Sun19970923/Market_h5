@@ -1,0 +1,47 @@
+import settings from '@/settings';
+export default {
+  webLoading: false,
+  currentRoute: null,
+  currentView: null,
+  token: null,
+  connected: false,
+  isLogin: false,
+  heartbeatTimer: null,
+  notice_unread: 0,
+  message: {
+    total: 0,
+    unread: 0,
+  },
+  config: {
+    buyerFee: 0,
+    ipfsUrl: "",
+    networkId: "",
+    sellerFee: "",
+  },
+  web3: {
+    address: null,
+    coinbase: null,
+    error: null,
+    instance: null,
+    isInjected: false,
+    walletType: "",
+    networkId: null
+  },
+  ethBalance: '0',
+  erc20Balance: {},
+  user: {
+    coinbase: "",
+    avatar: "",
+    brief: "",
+    nickname: "",
+    shortUrl: "",
+    loginType: "",
+    imageFile:"",
+    bannerUrl:"",
+    id:"",
+  },
+  payTokens: [],
+  defalutPayToken: null,
+  categorys: [],
+  ...settings
+};
