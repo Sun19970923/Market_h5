@@ -505,9 +505,12 @@ export default {
 }
 .text-center {
   text-align: center;
+  background-color: #242736 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
 }
 .mt-20 {
-  margin-top: 50rpx;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
 }
 .replace-cover {
   height: 42rpx;
@@ -535,12 +538,14 @@ export default {
   justify-content: center;
   width: 100%;
   height: 200rpx;
-  background: linear-gradient(-90deg, #e7d5cb, #e3c7c4, #82aabe);
+  background: linear-gradient(-90deg, #4b4a4a, #4e3c3a, #505253);
 }
 .head-portrait {
   margin-top: 100rpx;
 }
-
+.nav{
+  color: rgba(255, 255, 255, 0.8);
+}
 .body {
   min-height: 100%;
   background-color: #fff;
@@ -579,8 +584,15 @@ export default {
 .user-id {
   font-size: 28rpx;
   font-weight: 500;
-  color: #333333;
+  color: rgba(255, 255, 255, 0.8);
   margin: 10rpx 0rpx;
+}
+.iconfont{
+    color: rgba(255, 255, 255, 0.8);
+}
+.text-black{
+    color: rgba(255, 255, 255, 1.5);
+
 }
 .copy-icon {
   width: 22rpx;
@@ -605,7 +617,8 @@ export default {
 .focus-on {
   font-size: 26rpx;
   font-weight: bold;
-  color: #333333;
+  // color: #333333;
+  color: rgba(255, 255, 255, 0.8);
   margin: 0rpx 10rpx 0rpx 56rpx;
 }
 .number-text {

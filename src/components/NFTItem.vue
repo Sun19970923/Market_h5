@@ -374,10 +374,12 @@ export default {
   }
   .descript {
     padding: 6rpx;
+    color: rgba(255, 255, 255, 0.8);
   }
   .d {
     padding: 5rpx;
     display: flex;
+    color: rgba(255, 255, 255, 0.8);
   }
   .d-left {
     width: 90%;
@@ -385,16 +387,19 @@ export default {
     flex: 1;
     align-items: center;
     justify-content: space-between;
+    color: rgba(255, 255, 255, 0.8);
   }
   .d-right {
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.8);
   }
   .bid {
     white-space: nowrap;
-    color: $primaryColor;
+    // color: $primaryColor;
+    color: rgba(255, 255, 255, 0.8);
     cursor: pointer;
     font-weight: 400;
     font-size: 24rpx;
@@ -407,7 +412,7 @@ export default {
     font-size: 24rpx;
     font-family: Montserrat-Regular;
     font-weight: 400;
-    color: #1d1e22;
+    color: rgba(255, 255, 255, 1);
     margin-right: 5rpx;
   }
   .font12 {

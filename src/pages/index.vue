@@ -487,6 +487,9 @@ export default {
   align-items: flex-end;
   padding: 30rpx 0rpx;
 }
+.iconfont{
+  color: rgba(255, 255, 255, 0.8);
+}
 .left-icon {
   width: 20rpx;
   height: 15rpx;
@@ -531,7 +534,7 @@ export default {
 
 .body-content {
   min-height: 100%;
-  background-color: #fff;
+  background-color: #242736;
   padding: 20rpx 20rpx 60rpx;
 }
 .head-box {
@@ -556,19 +559,21 @@ export default {
   margin-left: 40rpx;
   margin-right: 40rpx;
   &.active {
-    color: #333;
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 .search-box {
   font-size: 32rpx;
-  margin: 20rpx 0rpx;
-  margin-left: 20rpx;
+  margin: 20rpx auto;
+  // margin-left: 20rpx;
   width: 90%;
   padding: 10rpx;
-  border-radius: 10rpx;
+  border-radius: 40rpx;
   position: relative;
   z-index: 1;
-  background-color: white;
+  // background-color: white;
+  border: 1px solid rgba(36, 33, 39, 0.5);
+  backdrop-filter: blur(20px);
 }
 .input-text {
   margin-left: 20rpx;
@@ -577,9 +582,9 @@ export default {
   width: 100%;
 }
 .placeholder-text {
-  font-size: 28rpx;
+  font-size: 24rpx;
   font-weight: 500;
-  color: #cccccc;
+  color: rgba(36, 33, 39, 0.5);
 }
 .advertis {
   width: 100%;
@@ -645,6 +650,9 @@ export default {
   // height: 13rpx;
   // background-color: pink;
   margin: 0rpx 30rpx 0rpx 12rpx;
+  img{
+    filter: invert(100%);
+  }
 }
 
 .float-right {
@@ -721,17 +729,19 @@ export default {
   }
   &.active {
     .options {
-      color: $primaryColor;
+      // color: $primaryColor;
+      color: rgba(255, 255, 255, 1);
     }
   }
   .options {
     font-size: 22rpx;
     font-weight: 500;
-    color: #1b1b1b;
+    color: rgba(255, 255, 255, 0.8);
   }
 }
 .nft{
   margin: 0 -5px;
+  // filter: invert(100%);
 }
 .nft-inner {
   width: 100%;
@@ -778,7 +788,7 @@ export default {
 }
 .body-bg{
   width: 100%;
-  background: url('../static/images/index/banner.jpg') no-repeat;
+  background: url('../static/image/bg.jpg') no-repeat;
   background-size: 100% 100%;
   padding: 130rpx 20rpx 30rpx;
   margin-top: -100rpx;

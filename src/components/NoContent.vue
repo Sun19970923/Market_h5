@@ -37,6 +37,7 @@ export default {
   }
   .no-content-tip{
     padding-top: 10px;
+    color: rgba(255, 255, 255, 1);
   }
 }
 

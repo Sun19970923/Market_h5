@@ -103,6 +103,7 @@ export default {
   margin-right: 20rpx;
   border-radius: 30rpx;
   border: $border;
+  color: rgba(255, 255, 255, 0.8);
   &.focus{
     border: 1rpx solid $primaryColor;
   }
@@ -111,7 +112,7 @@ export default {
 .input-text {
   margin-left: 20rpx;
   font-size: 28rpx;
-  color: #000;
+  color: rgba(255, 255, 255, 0.8);
   width: 100%;
 }
 .placeholder-text {
@@ -121,7 +122,8 @@ export default {
   color: #cccccc;
 }
 .cancel-button {
-  color: $grayColor;
+  // color: $grayColor;
+  color: rgba(255, 255, 255, 0.8);
 }
 .history-list {
   display: flex;
@@ -145,6 +147,7 @@ export default {
   justify-content: center;
   .t{
     flex: 1;
+    color: rgba(255, 255, 255, 0.8);
   }
   .iconfont{
     font-size: 44rpx;

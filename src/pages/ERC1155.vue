@@ -594,7 +594,7 @@ export default {
 <style lang="scss" scoped>
 .body-content {
   min-height: 100%;
-  background-color: #fff;
+  background-color: #242736;
   padding: 0 20rpx 100rpx;
 }
 

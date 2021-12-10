@@ -51,6 +51,7 @@ export default {
   align-items: center;
   padding: 20rpx 0;
   font-size:40rpx;
+  color: rgba(255, 255, 255, 0.8);
   border-bottom: $border;
   .name {
     flex: 1;

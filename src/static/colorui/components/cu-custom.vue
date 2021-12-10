@@ -35,7 +35,8 @@ export default {
       var CustomBar = this.CustomHei;
       var bgImage = this.bgImage;
       var opcity = this.opcity;
-      var bgColor = "rgba(255, 255, 255," + opcity + ")";
+      // var bgColor = "rgba(255, 255, 255," + opcity + ")";
+      var bgColor = "#242736"
       var style = `height:${CustomBar}px;padding-top:${StatusBar}px;background-color:${bgColor};`;
       if (this.bgImage) {
         style = `${style}background-image:url(${bgImage});`;
@@ -117,10 +118,17 @@ export default {
 };
 </script>
 <style>
+.cu-bar{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
 .dir-left {
   right: unset;
   left: 30rpx;
   text-align: left;
+}
+.content{
+  color: rgba(255, 255, 255, 0.8);
 }
 .hide-bar {
   z-index: 1100 !important;

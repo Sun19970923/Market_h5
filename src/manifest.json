@@ -71,7 +71,8 @@
       "disableHostCheck": false,
       "proxy": {
         "/fingernft": {
-          "target": "http://api.hbeasts.com"
+          "target": "http://api.hbeasts.com",
+          "changeOrigin": true
         },
         "/log": {
           "target": "http://api.hbeasts.com",

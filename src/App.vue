@@ -55,7 +55,7 @@ uni-checkbox:not([disabled]) .uni-checkbox-input:hover {
 }
 page {
   -webkit-overflow-scrolling: touch;
-  background: #fff;
+  background: #242736;
   width: 100%;
   font-size: 30upx;
   font-family: NotoSansHans-Bold;

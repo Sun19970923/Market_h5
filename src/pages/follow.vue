@@ -185,6 +185,9 @@ export default {
   font-size: 48rpx;
   font-weight: 400;
 }
+.no-content-tip{
+  color: rgba(255, 255, 255, 1) !important;
+}
 .dialog-title-colse {
   border: none;
   padding: 0;
@@ -203,7 +206,7 @@ export default {
 }
 .scroll-box {
   height: 70vh;
-  background-color: #fff;
+  background-color: #242736;
   padding: 36rpx 20rpx 150rpx 20rpx;
 }
 .follow-item {
@@ -240,6 +243,12 @@ export default {
     z-index: 100;
     left: 0;
   }
+}
+.cu-item{
+  color: rgba(255, 255, 255, 0.8);
+}
+.text-black {
+  color: rgba(255, 255, 255, 1);
 }
 .follow {
   .nav {

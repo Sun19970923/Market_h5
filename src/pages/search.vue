@@ -217,7 +217,7 @@ export default {
   flex-direction: column;
   align-items: center;
   min-height: 100%;
-  background-color: #fff;
+  background-color: #242736;
   padding: 20rpx 20rpx 60rpx;
 }
 .m-title {
@@ -449,6 +449,10 @@ export default {
   border: 1px solid grey;
   padding: 10rpx;
   border-radius: 10rpx;
+  background-color: #242736 !important;
+}
+input{
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 .input-text {
   margin-left: 20rpx;

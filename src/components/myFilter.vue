@@ -119,7 +119,8 @@ export default {
 .filter-box {
   font-size: 14rpx;
   font-weight: 400;
-  color: #1b1b1b;
+  // color: #1b1b1b;
+  color: rgba(255, 255, 255, .8);
   text-align: center;
   border: 1rpx solid #eeeeee;
   border-radius: 10rpx;

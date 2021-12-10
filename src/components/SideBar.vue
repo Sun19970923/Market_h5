@@ -1,7 +1,8 @@
 <template>
   <view>
     <view @tap="show=true">
-      <image class="sideButton" src="@/static/images/index/button_cebianlan.png"></image>
+      <img class="sideButton" src="@/static/images/index/button_cebianlan.png" alt="">
+      <!-- <image class="sideButton" src="@/static/images/index/button_cebianlan.png"></image> -->
     </view>
     <view class="cu-modal drawer-modal justify-start " :class="show?'show':''" @tap="show=false">
       <view class="cu-dialog basis-lg" @tap.stop="">
@@ -22,7 +23,8 @@
         </view>
         <view class="wallet-section" v-if="connected">
           <view class="flex align-center mb-42">
-            <image class="icon-box" src="@/static/images/index/FINGER.jpg"></image>
+            <img class="icon-box" src="@/static/images/index/FINGER.jpg" alt="">
+            <!-- <image class="icon-box" src="@/static/images/index/FINGER.jpg"></image> -->
             <view class="flex flex-direction align-start">
               <view class="x-text-1B1B1B">{{$t('navigation.balance')}}</view>
               <view class="eth-box">{{erc20Balance.balance}} {{ defaultPaytoken.symbol }} </view>
@@ -121,10 +123,14 @@ export default {
   width: 50rpx;
   height: 32rpx;
 }
+img{
+  filter: invert(100%);
+}
 .basis-lg {
   padding: 60rpx 43rpx 20rpx;
   flex-basis: 65%;
   overflow-y: auto;
+  background-color: #242736;
 }
 
 .user-name {
@@ -138,12 +144,15 @@ export default {
   font-size: 26rpx;
   font-family: PingFang SC;
   font-weight: 500;
-  color: #333333;
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 21rpx;
   text-align: left;
 }
 .user-img {
   margin-right: 21rpx;
+}
+.title-text{
+  color: rgba(255, 255, 255, 0.8);
 }
 .mb-98 {
   margin-bottom: 98rpx;
@@ -177,7 +186,7 @@ export default {
   .eth-box {
     font-size: 20rpx;
     font-weight: 500;
-    color: #444444;
+    color: rgba(255, 255, 255, 0.8);
   }
   .price-box {
     font-size: 20rpx;

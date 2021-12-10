@@ -124,6 +124,7 @@ button::after {
 }
 .text-bold {
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
 }
 .x-border-orange {
   border: 1px solid #ff8b1e !important;
